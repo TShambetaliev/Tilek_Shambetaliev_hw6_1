@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:hint="Вводите"
+        android:hint="@string/enter"
         android:padding="12dp"
         android:textColor="@color/black"
         android:textSize="24sp" />

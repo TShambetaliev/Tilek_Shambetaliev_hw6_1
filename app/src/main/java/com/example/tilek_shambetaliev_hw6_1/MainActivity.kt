@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnFindNumber.setOnClickListener {
             if (binding.etFindNumber.text == null) {
-                Toast.makeText(this, "Поле не может быть пустым", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.toast_oneActivity), Toast.LENGTH_SHORT).show()
 
             } else {
                 val intent = Intent(this, SecondActivity::class.java)
